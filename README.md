@@ -7,17 +7,17 @@ It is extension method to generate item description pairs for enums to bind it w
 
 ```csharp
 
-    internal enum ExampleEnum
-    {
-        Element,
+internal enum ExampleEnum
+{
+    Element,
 
-        [Description("Some description")]
-        Element2,
+    [Description("Some description")]
+    Element2,
 
-        [Description("not ASCI : ĄĆĘŁŃ  普 通 话 ")]
-        Element3,
+    [Description("not ASCI : ĄĆĘŁŃ  普 通 话 ")]
+    Element3,
 
-        Element4,
+    Element4,
 }
 
 private void Form1_Load(object sender, EventArgs e)
